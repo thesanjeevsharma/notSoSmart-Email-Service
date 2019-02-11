@@ -1,0 +1,190 @@
+*{ box-sizing: border-box; }
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.jumbotron{
+    background: url('../img/jumbotron.jpg') center no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.portal{
+    max-width: 50%;
+    margin: 50px auto;
+    padding: 15px;
+    box-shadow: 0px 0px 15px 1px #ccc;
+    border-radius: 5px;
+}
+
+.portal .login form{
+    margin-bottom: 20px; 
+}
+
+.navbar{
+    background: #51318e!important;
+    color: #fff;
+}
+
+.navbar .navbar-brand{
+    color: #fff;
+}
+
+.navbar .navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar .btn{
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar .btn:hover{
+    color: #51318e;
+    background: #fff;
+}
+
+.nav-item{
+    margin: 0 10px;
+}
+
+.options{
+    margin: 20px 0;
+}
+
+.btn-theme{
+    background: #fff;
+    color: #51318e;
+    border: 1px solid #51318e;
+}
+
+.btn-theme:hover{
+    background: #51318e;
+    color: #fff;
+}
+
+.messages-box{
+    margin: 50px 0;
+}
+
+.messages-box h3{
+    color: #51318e;
+    text-transform: uppercase;
+}
+
+.messages span{
+    margin-right: 20px;
+}
+
+.messages .message{
+    background: rgba(81,49,142,0.3);
+    padding: 5px;
+    color: #fff;
+    margin: 2px 0;
+    max-height: 32px;
+    overflow: hidden;
+    position: relative;
+}
+
+.messages .message:hover{
+    cursor: pointer;
+    background: rgba(81,49,142,0.5);
+}
+
+.messages .message .sender{
+    font-weight: bold;
+    color: #51318e;
+    width: 150px;
+    overflow: hidden;
+}
+
+.messages .message .body{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.messages .message .time{
+    position: absolute;
+    right: 0;
+    top: 8px;
+    font-size: .8rem;
+}
+
+.no-messages{
+    text-align: center;
+    background: rgba(81,49,142,0.3);
+    color: #fff;
+    padding: 20px;
+}
+
+.message-full{
+    background: rgba(81,49,142,0.6);    
+    color: #fff;
+    padding: 20px;
+}
+
+.message-full .message-full-sender{
+    font-weight: bold;
+}
+
+.message-full .message-full-sender::before{
+    content: 'From: ';
+    color: #51318e;
+    font-weight: bold;
+}
+
+.message-full .message-full-body{
+    font-size: 1.2rem;
+}
+
+.message-full .message-full-body::before{
+    content: 'Message: ';
+    color: #51318e;
+    font-weight: bold;
+}
+
+.message-full .message-full-dated::before{
+    content: 'Date: ';
+    color: #51318e;
+    font-weight: bold;
+}
+
+.message-full-options{
+    margin: 20px 0;
+}
+
+.message-full-options .btn-theme{
+    background: #51318e;
+    color: #fff;
+}
+
+.modal .modal-header{
+    background: #51318e;
+    color: #fff;
+    border-radius: 0;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/* Notification */
+.notification{
+    background: #fff;
+    color: crimson;
+    border: 1px solid crimson;
+    top: 100px;
+    right: 50px;
+    padding: 10px;
+}
